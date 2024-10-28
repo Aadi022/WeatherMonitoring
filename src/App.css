@@ -1,0 +1,110 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #ffcc00;
+  }
+  
+  .weather-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .thresholds {
+    margin-top: 20px;
+  }
+  
+  .thresholds h3 {
+    color: #333;
+  }
+  
+  .thresholds label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .thresholds input {
+    padding: 5px;
+    font-size: 16px;
+    width: 50%;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .thresholds button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .thresholds button:hover {
+    background-color: #218838;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  .alert {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
